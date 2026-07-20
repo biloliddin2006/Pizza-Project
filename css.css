@@ -1,0 +1,983 @@
+body{
+    background: linear-gradient(135deg, #1a0b06, #0e0401);
+    width: 1330px;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    height: 125px;
+    margin-top: 30px;
+    gap: 80px;
+}
+
+.text1{
+    font-size: 34.06px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(270deg,#FF6432,#FFA228);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-left: -20px;
+}
+
+
+.bolo{
+    display: flex;
+    gap: 90px;
+    cursor: pointer;
+}
+
+.bolo a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #A3A3A3;
+    transition: transform 0.5s;
+    margin-top: 20px;
+    height: 30px;
+
+}
+
+.bolo a:hover{
+    background: linear-gradient(45deg,#FFA228,#FF6432);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: scale(1.2);
+}
+
+.div1 button{
+    width: 160px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+    background:linear-gradient(10deg,#1a0b06,#210A01,#1a0b06);
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -2px #77490c;
+    transition: transform 1s;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    animation: animation 3s infinite;
+}
+
+.button1 button a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.div1 button:hover{
+    background: linear-gradient(to right, #FF5924,#FFA229);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #FF5924;
+    animation: step-end;
+}
+
+.div1 button:active{
+    opacity: 0.3;
+}
+
+@keyframes animation {
+    50%{
+        background: linear-gradient(180deg,#ec4f1b,#9d3412,#320d01,#320d01,#320d01);
+        box-shadow: 0 0 20px #c93f11;
+    }
+    100%{
+        background: linear-gradient(180deg,#320d01,#320d01,#320d01,#9d3412,#ec4f1b);
+        box-shadow: 0 0 20px #ec4f1b;
+    }
+}
+
+.div2{
+    position: relative;
+    width: 538px;
+    height: 169.7px;
+}
+
+.div2 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 110px;
+    color: #FFFFFF;
+    line-height: 80px;
+}
+
+.div2 span{
+    background: linear-gradient(45deg, #FF5924,#FFA229,#FF5924);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.div3{
+    position: absolute;
+    top: -20px;
+    right: -50px;
+}
+
+.div3_1{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    top: 30px;
+}
+
+.mainDiv{
+    margin-left: 80px;
+}
+
+.div4 p, .div5 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #A3A3A3;
+}
+
+.div4 span{
+    color: white;
+}
+
+.div5{
+    margin-top: 40px;
+    position: relative;
+}
+
+
+.div5 .foto4{
+    box-shadow:0 0 10px #FFA228;
+    width: 272px;
+    height: 193.4px;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+
+.foto4:hover{
+    transform: scale(1.1);
+}
+
+.div5 .vect2{
+    position: absolute;
+    top: 200px;
+    right: 90px;
+}
+
+.div5 .vect3{
+    position: absolute;
+    top: -40px;
+    right: -30px;
+}
+
+.div5 .vect3 img{
+    width: 160px;
+    height: 160px;
+    transition: transform 1s;
+}
+
+.div5 .vect3 img:hover{
+    transform: rotate(360deg);
+}
+
+.dualButton{
+    margin-top: 60px;
+    display: flex;
+    border-radius: 50px;
+    overflow: hidden;
+    width: fit-content;
+    box-shadow: 0 0 5px rgba(255, 140, 0, 0.5);
+    height: 50px;
+}
+
+.btn{
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+}
+
+.left{
+    color: #d18109;
+    font-size: 18px;
+}
+
+.left:hover{
+    background: linear-gradient(to right, #da5903, #cd871d);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+}
+
+.right:hover{
+    background: linear-gradient(to right, #da5903, #cd871d);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: white;
+}
+
+.right{
+    color: #d18109;
+    font-size: 18px;
+}
+
+.general{
+    display: flex;
+}
+
+.mainDiv2{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.imgDiv{
+    position: absolute;
+}
+
+.img1{
+    width: 456px;
+    height: 684px;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    transition: transform 1s;
+    animation: animate5 3s ease-in-out infinite;
+    border: none;
+}
+
+@keyframes animate5{
+    0%{
+        box-shadow:0 0 40px #ab6c0e;
+    }
+    50%{
+        box-shadow:0 0 40px #84d823;
+    }
+    75%{
+        box-shadow:0 0 40px #9eab0e;
+    }
+    100%{
+        box-shadow:0 0 40px #96ab0e;
+    }
+}
+
+.img1:hover{
+    transform: scale(1.1);
+}
+
+.smallpizza{
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    margin-top: -800px;
+    margin-left: 400px;
+    transition: transform 1s;
+}
+
+.free{
+    position: absolute;
+    width: 213px;
+    height: 226px;
+    margin-top: -180px;
+    transition: transform 1s;
+}
+
+.smallpizza:hover,.free:hover{
+    transform: rotate(360deg);
+}
+
+.glavni{
+    width: 182px;
+    height: 58px;
+    font-size: 69px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.glavni a{
+    text-decoration: none;
+    color: #FFFFFF; 
+    background: linear-gradient(45deg, #FFA228, #FF6432, #c04f29, #af6809, #FFA228);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate3 3s infinite;
+}
+
+@keyframes animate3 {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.class2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.class2 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border-style: none;
+    background:linear-gradient(10deg,#1a0b06,#210A01,#1a0b06);
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px -2px #77490c;
+    transition: transform 1s;
+    font-size: 18px;
+}
+
+.class2 button:hover{
+    background: linear-gradient(to right, #FF5924,#FFA229);
+    transform: scale(1.1);
+}
+
+.class2 button:active{
+    opacity: 0.3;
+}
+
+.box{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.glavni2{
+    margin-top: 80px;
+    width: 300px;
+    background-color: #210A01;
+    height: 500px;
+    border-radius: 30px;
+    border: none;
+    animation: animate4 5s ease-in-out infinite;
+}
+
+@keyframes animate4{
+    0% {
+        box-shadow: 0 0 30px #d74f19;
+    }
+    50%{
+        box-shadow:0 0 30px #b7d719;
+    }
+    75%{
+        box-shadow: 0 0 30px #d71919;
+    }
+    100%{
+        box-shadow:0 0 30px white;
+    }
+}
+
+.foto1, .foto2, .foto3{
+    width: 159px;
+    height: 157px;
+    margin-top: -50px;
+    margin-left: 70px;
+    transition: transform 1s;
+}
+
+.foto2{
+    width: 170px;
+    margin-left: 65px;
+}
+
+.foto3{
+    width: 210px;
+    margin-left: 50px;
+}
+
+.foto3_a{
+    width: 159px;
+    height: 157px;
+    margin-top: -50px;
+    margin-left: 70px;
+    transition: transform 1s;
+}
+
+.foto1:hover, .foto2:hover, .foto3:hover, .foto3_a:hover{
+    transform: rotate(540deg);
+}
+
+.italian1{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.paragraf1{
+    width: 230px;
+    margin-left: 40px;
+    color: gray;
+}
+
+.number1{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.number1 div{
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+    color: gray;
+}
+
+.number1 .num28{
+    background: linear-gradient(45deg,  #FF5924,#d17d0f);
+    border: solid;
+    text-align: center;
+    color: white;
+    border: 0.1px solid black;
+    padding-left: 10px;
+}
+
+.knopka1{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 194px;
+    height: 39px;
+    border-radius: 30px;
+    background-color: transparent;
+    color:#d17d0f;
+    border-color: #d17d0f;
+    font-size: 16px;
+    transition: transform 1s, color 1s, box-shadow 1s;
+    cursor: pointer;
+}
+
+.knopka1:hover{
+    background: linear-gradient(to right, #FF5924,#d17d0f);
+    color: white;
+    transform: scale(1.2);
+    border: none;
+    box-shadow: 0 0 5px #FF5924;
+}
+
+.knopka1:active{
+    opacity: 0.3;
+}
+
+.glavni3{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 30px;
+}
+
+.baland{
+    display: flex;
+    gap: 15px;
+}
+
+.min, .plus{
+    border: 1px solid white;
+    padding: 6px 12px 6px 12px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.plus{
+    background: linear-gradient(to right, #FF5924,#d17d0f);
+    border: none;
+}
+
+.one{
+    margin-top: 10px;
+}
+
+.num8{
+    font-size: 26px;
+}
+
+.num8 sup{
+    font-size: 17px;
+}
+
+.zakaz{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 194px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background: linear-gradient(to right, #FF5924,#d17d0f);
+    font-size: 17px;
+    color: white;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.zakaz:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #FF5924;
+}
+
+.zakaz:active{
+    opacity: 0.3;
+}
+
+.surat{
+    width: 1248px;
+    height: 286px;
+    text-align: center;
+}
+
+.glavni4{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.glavni4 .surat{
+    border-radius: 30px;
+    box-shadow: 0 0 30px #FF5924;
+    transition: transform 1s;
+}
+
+.glavni4 .surat:hover{
+    transform: scale(1.05);
+}
+
+.glavni4 div{
+    position: absolute;
+    font-size: 44px;
+    color: #FFFFFF;
+    top: 0;
+    margin: 120px 0 0 420px;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.glavni4 div:hover{
+    transform: scale(1.2);
+}
+
+.main1{
+    color: white;
+    width: 459px;
+    position: relative;
+    margin: 40px 0 0 70px;
+}
+
+.main1 p{
+    font-size: 20px;
+    color: #A3A3A3;
+}
+
+.jus1{
+    margin-top: -30px;
+    width: 423px;
+}
+
+.png1{
+    margin: -20px 0 0 -20px;
+    width: 450px;
+}
+
+.jus2{
+    width: 388px;
+}
+
+.main1 .darun{
+    position: absolute;
+    top: -70px;
+    left: -90px;
+}
+
+.darun2{
+    position: absolute;
+    right: -100px;
+    top: 320px;
+}
+
+.main1 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    background: linear-gradient(45deg, #FFA228, #FF6432, #c04f29, #af6809, #FFA228);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate3 3s infinite;
+}
+
+.main1 h1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+@keyframes animate3 {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.box2{
+    display: flex;
+    gap: 180px;
+}
+
+.photo1{
+    width: 567px;
+    height: 470px;
+    margin-top: 100px;
+    border-radius: 30px;
+    transition: transform 1s;
+    box-shadow: 0 0 50px #ab6c0e;
+}
+
+.photo1:hover{
+    transform: scale(1.1);
+}
+
+.main2{
+    position: relative;
+}
+
+.main3{
+    position: absolute;
+    top: 0px;
+}
+
+.smallpizza2{
+    position: absolute;
+    width: 252px;
+    height: 252px;
+    left: 400px;
+    top: -20px;
+    transition: transform 1s;
+}
+
+.free2{
+    position: absolute;
+    width: 213px;
+    height: 226px;
+    top: 400px;
+    left: -100px;
+    transition: transform 1s;
+}
+
+.smallpizza2:hover,.free2:hover{
+    transform: rotate(360deg);
+}
+
+.glavni6{
+    width: 1345px;
+    box-shadow: 0 0 10px #0F0700;
+    background: linear-gradient(to right,#170A00,#0F0700,#170600,#170A00);
+}
+
+.glavni5{
+    display: flex;
+    justify-content: space-evenly;
+    color: #515151;
+    font-size: 18px;
+    width: 1345px;
+    height: 300px;
+    padding-top: 40px;
+    margin-top: 80px;
+}
+
+.glavni5 div{
+    padding: 5px;
+}
+
+.glavni5 div div{
+    transition: transform 0.5s;
+}
+
+.glavni5 div div:hover{
+    transform: scale(1.2);
+    color: #e1a751;
+    cursor: pointer;
+}
+
+.glavni5 div div:active{
+    opacity: 0.3;
+}
+
+.text2{
+    font-size: 34.06px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(270deg,#FF6432,#FFA228);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.top1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #A3A3A3;
+    margin-bottom: 25px;
+    margin-top: 5px;
+}
+
+.right2{
+    background: linear-gradient(to right, #da5903, #ab6c0e);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    color: white;
+    width: 170px;
+    font-size: 20px;
+}
+
+.left2{
+    color: #d18109;
+    font-size: 18px;
+}
+
+.glavni7{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 330px;
+}
+
+.glavni7 .images{
+    margin-top: -5px;
+    color: #515151;
+    font-size: 21px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.images img{
+    width: 40px;
+    height: 35px;
+}
+
+
+.glavni7 .telphone {
+    margin-left: 40px;
+    font-size: 21px;
+    color: #515151;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.glavni7 .telphone:hover, .images:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to right,#d99844,#cc5127);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glavni7 .telphone:active, .images:active{
+    opacity: 0.4;
+}
+
+.glavni7 img{
+    width: 100px;
+    height: 100px;
+    margin-top: -40px;
+    border-radius: 20px;
+    opacity: 0.8;             
+    filter: brightness(1); 
+    transition: transform 1s;
+}
+
+.glavni7 img:hover{
+    transform: rotate(30deg);
+}
+
+.div6{
+    position: relative;
+}
+
+.div7{
+    position: absolute;
+    top: 0;
+    
+}
+
+.div7 button{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 50px;
+    width: 204px;
+    height: 38px;
+    border: none;
+    border-radius:40px; 
+    background: linear-gradient(to right,#FFA228,#FF6432);
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: transform 1s;
+}
+
+.div7 button:hover{
+    transform: scale(1.2);
+}
+
+.div7 button:active{
+    opacity: 0.5;
+}
+
+.div7 div{
+    position: absolute;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 160px;
+    font-weight: 900;
+    
+}
+
+.img2{
+    width: 367px;
+    height: 260px;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center;   
+}
+
+.egg{
+    width: 218px;
+    height: 218px;
+    margin-left: -130px;
+    margin-top: 120px;
+}
+
+.burito{
+    width: 218px;
+    height: 218px;
+    margin-left: 450px;
+}
+
+.glavni8{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.div8{
+    width: 428px;
+    height: 136px;
+    margin-top: 50px;
+    background-size: cover;
+    background-position: center;
+}
+
+.div8 a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    margin-right: 90px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #FFA228, #FF6432, #c04f29, #af6809, #FFA228);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 3s infinite;
+}
+
+.div8 p{
+    font-size: 20px;
+    color: #A3A3A3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(45deg, #FFA228, #FF6432, #c04f29, #af6809, #FFA228);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 3s infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.glavni9{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.img3{
+    width: 615px;
+    height: 260px;
+    border-radius: 30px;
+}
+
+.img3_a{
+    width: 575px;
+    height: 260px;
+    border-radius: 30px;
+}
+
+.img2, .img3_a{
+    transition: transform 1s;
+    animation: animate1 6s infinite;
+}
+
+@keyframes animate1 {
+    0%{
+        box-shadow: 0 0 20px rgb(208, 6, 6);
+    }
+    50%{
+        box-shadow: 0 0 20px #cf561d;
+    }
+    60%{
+        box-shadow: 0 0 20px #e19420;
+    }
+    70%{
+        box-shadow: 0 0 20px #18a1eb;
+    }
+    80%{
+        box-shadow: 0 0 20px #4fdc54;
+    }
+    90%{
+        box-shadow: 0 0 20px #dfdcd7;
+    }
+    100%{
+        box-shadow: 0 0 20px #031d33;
+    }
+}
+
+.glavni10{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.glava1{
+    margin-top: 40px;
+    margin-left: 12px;
+}
+
+.img2:hover, .img3_a:hover{
+    transform: scale(1.1);
+}
